@@ -1,0 +1,19 @@
+{
+	"name": "elwinar/semaphor",
+	"description": "Semaphor - EVE Central querier",
+	"keywords": ["eve online", "tool", "market"],
+	"license": "MIT",
+	"require": {
+		"illuminate/database": "dev-master",
+		"elwinar/butler": "dev-master"
+	},
+	"autoload": {
+		"classmap": [
+			"app"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
